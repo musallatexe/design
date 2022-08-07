@@ -1,0 +1,84 @@
+#anadiv {
+  border: 1px;
+  width: 855px;
+  height: 830px;
+  margin: auto;
+}
+
+#banner {
+  border: 1px;
+  width: 700px;
+  height: 100px;
+  text-align: center;
+  border-radius: 5px;
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  float: right;
+  text-align: center;
+  border: 1px;
+  border-radius: 5px;
+}
+#menu {
+  border: 1px;
+  width: 855px;
+  height: 50px;
+  float: left;
+  background-color: rgb(221, 69, 22);
+  margin-top: 5px;
+  border-radius: 25%;
+}
+
+#alt1 {
+  border: 1px;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  float: left;
+  background-color: rgb(163, 117, 117);
+  margin-top: 10px;
+}
+#alt2 {
+  border: 1px;
+  width: 400px;
+  height: 300px;
+  float: left;
+  background-color: rgb(163, 117, 117);
+  margin-top: 10px;
+  margin-left: 22px;
+}
+#alt3 {
+  border: 1px;
+  width: 400px;
+  height: 300px;
+  float: left;
+  background-color: rgb(163, 117, 117);
+  margin-top: 35px;
+  margin-left: 0px;
+}
+li {
+  list-style: none;
+  text-decoration: none;
+}
+li a {
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  float: left;
+  border: 1px;
+  width: 200px;
+}
+img {
+  border: 1px;
+  border-radius: 5px;
+}
+footer {
+  border: 1px;
+  text-align: center;
+  width: 855px;
+  height: 50px;
+  background-color: rgb(219, 92, 19);
+  margin: auto;
+  border-radius: 40%;
+}
