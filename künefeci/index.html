@@ -1,0 +1,214 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ana Sayfa</title>
+    <! -- Tasarım - Samet Taşhan -->
+    <style>
+      #ana {
+        border: 1px solid black;
+        border-radius: 3%;
+        width: 900px;
+        height: 1600px;
+        margin-left: 30%;
+        margin: auto;
+        text-align: center;
+      }
+      #menucubugu {
+        border: 1px solid white;
+        width: 898px;
+        height: 100px;
+      }
+      #imglogo {
+        width: 100px;
+        float: left;
+      }
+      ul {
+        list-style-type: none;
+
+        margin: 0;
+        margin-top: 50px;
+
+        padding: 0;
+
+        overflow: hidden;
+      }
+
+      li {
+        float: right;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        width: 100px;
+        height: 100px;
+      }
+      @font-face {
+        font-family: myFirstFont;
+        src: url(sansation_light.woff);
+      }
+      li a {
+        display: block;
+
+        padding: 12px 14px;
+
+        background-color: #27ae60;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      }
+      #bckimg {
+        width: 898px;
+        height: 750px;
+        border: 1px solid black;
+        background-image: url(arka-plan.jpg);
+        background-size: 100% 100%;
+        filter: blur(1px);
+        position: absolute;
+      }
+      #slogan {
+        width: 100%;
+        height: 10px;
+        font-size: 45px;
+        filter: none;
+        z-index: 1;
+        position: relative;
+        color: rgb(211, 190, 98);
+        margin-top: 250px;
+        font-family: Freestyle Script;
+      }
+      #slogan1 {
+        width: 100%;
+        height: 10px;
+        font-size: 48px;
+        filter: none;
+        z-index: 1;
+        position: relative;
+        color: rgb(255, 255, 255);
+        margin-top: 50px;
+        font-family: Lucida Calligraphy;
+      }
+      #buton1 {
+        width: 150px;
+        height: 50px;
+        border: 1px solid whitesmoke;
+        position: relative;
+        margin: 40%;
+        margin-top: 80px;
+        display: block;
+      }
+      #menufont {
+        width: 150px;
+        height: 40px;
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 18px;
+        display: block;
+        margin-top: -16px;
+        padding-top: 10px;
+      }
+
+      #buton1 a:hover {
+        width: 150px;
+        height: 40px;
+        text-decoration: none;
+        background-color: whitesmoke;
+        color: black;
+        font-size: 18px;
+        display: block;
+      }
+      #hovermenu a:hover {
+        width: 150px;
+        height: 40px;
+        text-decoration: none;
+        background-color: whitesmoke;
+        color: black;
+        font-size: 18px;
+        display: block;
+      }
+      .animasyon1 {
+        width: 230px;
+        height: 130px;
+        border: 1px solid black;
+        background-color: red;
+        animation-name: deneme;
+        animation-duration: 1s;
+        animation-delay: 0s;
+        position: relative;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        margin-left: 50px;
+        font-family: cursive;
+        text-align: center;
+        text-decoration: none;
+        list-style-type: none;
+        overflow: hidden;
+        padding-top: 100px;
+        color: #d5dad7;
+        float: left;
+      }
+      @keyframes deneme {
+        from {
+          background-color: rgb(24, 14, 5);
+        }
+        to {
+          background-color: rgb(148, 77, 48);
+        }
+      }
+      a {
+        text-decoration: none;
+        list-style-type: none;
+        overflow: hidden;
+        color: aliceblue;
+      }
+      #footer {
+        width: 900px;
+        height: 135px;
+        background-color: black;
+        margin-top: 899px;
+        color: aliceblue;
+        border-radius: 0% 10% 0% 10%;
+        padding-top: 15px;
+      }
+    </style>
+    <! -- Tasarım - Samet Taşhan -->
+  </head>
+  <body>
+    <! -- Tasarım - Samet Taşhan -->
+    <div id="ana">
+      <div id="menucubugu">
+        <a href="index.html"><img id="imglogo" src="logo.png" /></a>
+        <menu id="ustmenu"
+          ><ul>
+            <li>İletişim</li>
+            <li>Hakkımızda</li>
+            <li>Menü</li>
+            <li>Ana Sayfa</li>
+          </ul></menu
+        >
+      </div>
+      <div id="bckimg"></div>
+      <div>
+        <p id="slogan">
+          <i><b> Gaziantep'ten Gelen Özel Lezzet</b></i>
+        </p>
+        <p id="slogan1">
+          <i><b> Antephan Künefe</b></i>
+        </p>
+      </div>
+      <div id="buton1">
+        <p id="hovermenu"><a id="menufont" href="menu.html">Menü</a></p>
+      </div>
+      <div class="animasyon1">
+        <a href="index.html">Şubelerimiz</a><br />Sizleri misafir etmekten
+        mutluluk duyarız.
+      </div>
+      <div class="animasyon1">
+        <a href="#">Menü</a><br />Gerçek bir baklava lezzetinin gerçek bir
+        ustalık vardır.
+      </div>
+      <div class="animasyon1">
+        <a href="">Hızlı Sipariş</a><br />Sipariş et hemen gelsin. Lezzetin En
+        Hızlı Yolu Sadece Antephan’da.
+      </div>
+      <div id="footer">
+        Copyright © 2022 Samet Taşhan, Tüm Hakları Saklıdır.
+      </div>
+    </div>
+    <! -- Tasarım - Samet Taşhan -->
+  </body>
+</html>
